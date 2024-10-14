@@ -1,0 +1,287 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    width: 100%;
+    color: #ddd;
+}
+ 
+#bar,h6{
+    display: flex;
+    font-size: 75%;
+    width: 100%;
+    height: 7%;
+    margin: -8;
+    background-color:rgb(34, 153, 84) ;
+    align-items: center;
+    position: relative;
+    padding-left:12%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifz;
+}
+
+ul,
+li a{
+    display: flex;
+    color: #ddd;
+    align-items: center;
+    list-style-type: none;
+    justify-content: center;
+    left:80%;
+    column-gap: 45%;
+    bottom: 30%;
+    font-size: 60%; 
+    position: absolute;
+     }
+
+     .dropdown{
+        display: flex;
+        max-width: 50%;
+        color: #000;
+        right: 0%;
+        position: absolute;
+     }
+
+     #uk-flag{
+        display: flex;
+        max-width: 17%;
+        margin-top: 30%;
+        left: 20%;
+        position: absolute;
+     }
+
+
+/* Logo and Navigation items*/
+#logo,
+img {
+    display: flex;
+    padding: 1%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+h1 {
+    color:  #020603;
+    padding-left: 2%;
+    bottom: 5px;
+    margin: 3%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    position: absolute;
+}
+
+.menu .active{
+     color: #229954;
+}
+
+.menu .navigation ul, li a{
+    display: flex;
+   color:#000;
+   font-size: 17px;
+   column-gap: 25px;
+   padding: 13px;
+   justify-content: space-between;
+   text-decoration: none;
+   position: relative;
+}
+
+li, a{
+    right: 65%;
+    position: relative;
+
+}
+
+.navigation .dropdown, ul li i{
+    align-items: center;
+    justify-content:center ;
+    left: 170%;
+    top: 30%;
+    position: absolute;
+
+}
+
+   /* Heart & Cart Icon */
+#heart, i{
+    color: #000;
+    display: flex;
+    left: 68%;
+    top: 35%;
+    column-gap: 10px;
+       
+    position: absolute;
+}
+
+
+.cart{
+    color:#000;
+    display: flex;
+    left:30rem ;
+    bottom: 65%;
+    position: absolute;
+}
+
+#cart{
+    color: #000;
+    left: 32rem;
+    font-size: 50%;
+    bottom: 3%;
+    position: absolute;
+    }
+           /* Botton and Search Box */
+
+ .button{
+    display: flex;
+    color: #ddd;
+    background-color: #229954;
+    padding: 10px 30px;
+    position: absolute;
+    top: 110%;
+    right: 83%;
+    
+ }
+
+ .thriple_bars{
+    color: #ddd;
+    position: absolute;
+    top: 120%;
+    right: 95.5%;
+ }
+
+.drop_down2{
+   color: #ddd;
+    top: 120%;
+    right: 85%;
+    position: absolute;
+}
+
+     .search-box{
+        padding: 1% 10%;
+        height: 34%;
+        top: 110%;
+        right: 48%;
+        color: #ddd;
+        position: absolute;
+     }
+
+     .magnifying-glass{
+        display: flex;
+        color: #020603;
+        top:120%;
+        right:47%;
+        position: absolute;
+     }
+      
+     .Box{
+        width: 3%;
+        height: 34%;
+        border: 2px solid #229954;
+        background-color: #229954;
+        top: 110%;
+        right:45% ;
+        position: absolute;
+     }
+      /* Text */
+
+      .fa-headphones{
+        display: flex;
+        color: #020603;
+        top:90% ;
+        left: 58%;
+        position: absolute;
+      }
+
+      .call-us{
+          top: 80%;
+          left: 220%;
+          font-size: 70%;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          position: absolute;
+      }
+
+  h3{
+    color: rgb(2, 6, 3 );
+    display: flex;
+    font-size:120%;
+     top: 333%;
+    right: 220%;
+    position: relative;   
+}
+
+ #text5{
+  display: flex;
+  color: rgb(2, 6, 3 );
+  font-size: 80%;
+  text-align: right;
+  top:320%;
+  right:93%;
+position: absolute; 
+}
+
+#text1{
+    display: flex;
+    color: #229954;
+    font-size: 190%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top:370% ;
+    right:227%;
+    position: relative;
+    
+       
+}
+
+.button2{
+    color: #229954;
+    font-size: 70%;
+    top:380%;
+    right: 89%;
+    padding: 0.6% 1.7%;
+    border: 2px solid #229954;
+    position: absolute;
+}
+              /* Green Arm Chair */
+#green-chair{
+    display: flex;
+    font-size: 10%;
+    top: 160%;
+    left: 50%;
+    position: absolute;
+}
+
+      /* Product Categories */
+      #top{
+        color: rgb(2, 6, 3 )
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        top: 760px;
+        right: 780px;
+        position: relative;
+      }
+
+      .card{
+        display: flex;
+        padding: 10%;
+        column-gap: 250px;
+        position: absolute;
+      }
+
+      .cards img{
+        display:flex;
+        flex-grow: wrap;
+        max-width: 450%;
+        padding: 2px;
+        margin: auto;
+       top: 660px;
+       justify-content: space-between;
+       column-gap: 20px;
+        right: 820px; 
+       position: relative;  
+    }
+
+    .top_categories, h5{
+        color: #000;
+        top:560px;
+        right:840px;
+        position: relative;
+    }
